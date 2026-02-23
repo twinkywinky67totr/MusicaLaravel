@@ -32,7 +32,6 @@ class AlbumsController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(StoreRequest $request){
-        // Obtener datos validados desde el FormRequest
         $data = $request->validated();
         if ($request->hasFile('image')) {
             $data['image'] = $request->file('image')->store('albums', 'public');

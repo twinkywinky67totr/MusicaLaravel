@@ -44,7 +44,6 @@
         </div>
     </div>
 
-    {{-- Formulario de valoración --}}
     <div class="card mt-4">
         <div class="card-body">
             <h4>Tu Valoración</h4>
